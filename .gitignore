@@ -49,3 +49,5 @@ atlassian*
 !/var/.htaccess
 /vendor/*
 !/vendor/.htaccess
+
+chef-runtime.path

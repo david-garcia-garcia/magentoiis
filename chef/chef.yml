@@ -124,6 +124,6 @@ services:
         persist_on_deploy: true
   cron:
     type: 'scheduler'
-    command: 'php bin\magento cron:run'
+    commands: ['php bin\magento cron:run', 'php bin\magento setup:cron:run']
     frequency: 5
 
