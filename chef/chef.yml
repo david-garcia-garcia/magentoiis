@@ -113,12 +113,15 @@ services:
       var:
         path: 'var'
         mountpath: 'var'
+        persist_on_deploy: true
       pub_static:
         path: 'pub_static'
         mountpath: 'pub/static'
+        persist_on_deploy: true
       pub_media:
         path: 'pub_media'
         mountpath: 'pub/media'
+        persist_on_deploy: true
   cron:
     type: 'scheduler'
     command: 'php bin\magento cron:run'
