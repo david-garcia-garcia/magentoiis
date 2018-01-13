@@ -27,7 +27,7 @@ deployers:
   php:
     type: 'php'
     runtime:
-      - {type: 'dl', uri: 'http://windows.php.net/downloads/releases/php-7.0.23-nts-Win32-VC14-x64.zip', maps: {'*' : 'php/'}}
+      - {type: 'dl', uri: 'http://windows.php.net/downloads/releases/archives/php-7.0.23-nts-Win32-VC14-x64.zip', maps: {'*' : 'php/'}}
       - {type: 'dl', uri: 'http://windows.php.net/downloads/pecl/releases/xdebug/2.5.5/php_xdebug-2.5.5-7.0-nts-vc14-x64.zip', maps: {'php_xdebug.dll':'php/ext/php_xdebug.dll'}}
       - {type: 'dl', uri: 'https://ci.appveyor.com/api/buildjobs/7b47bfc24eynberd/artifacts/x64%2FRelease%2Fphp_tideways.dll' , maps: {'x64%2FRelease%2Fphp_tideways.dll':'php/ext/php_tideways.dll'}}
       - {type: 'dl', uri: 'http://windows.php.net/downloads/pecl/releases/igbinary/2.0.1/php_igbinary-2.0.1-7.0-nts-vc14-x64.zip', maps: {'php_igbinary.dll': 'php/ext/php_igbinary.dll'}}
