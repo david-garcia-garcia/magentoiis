@@ -33,7 +33,8 @@
             "": "app/code/"
         },
         "files": [
-            "app/etc/NonComposerComponentRegistration.php"
+            "app/etc/NonComposerComponentRegistration.php",
+            "app/NonComposerComponentRegistration.php"
         ]
     },
     "autoload-dev": {
